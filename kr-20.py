@@ -1,3 +1,4 @@
+#El coeficiente de Kuder-Richardson 20 (KR-20) es un método para evaluar la consistencia interna de una medida basada en datos dicotómicos, como "correcto" o "incorrecto". 
 def kr20(respuestas):
     """Calcula el coeficiente KR-20."""
     num_personas = len(respuestas)
