@@ -1,6 +1,7 @@
 #El coeficiente de Kuder-Richardson 20 (KR-20) es un método para evaluar la consistencia interna de una medida basada en datos dicotómicos, como "correcto" o "incorrecto". 
 #Con esta formula pude sacar la confiabilidad de mi trabajo de grado
-#
+#Las puntuaciones para KR-20 van de 0 a 1, donde 0 no es confiable y 1 es perfecta. constituye un "aceptable" KR-20 puntuación depende del tipo de prueba. En general, una puntuación superior a 0,5 se considera generalmente razonable.
+#Si es mayor a 0.70 es mas que aceptable
 def kr20(respuestas):
     """Calcula el coeficiente KR-20."""
     num_personas = len(respuestas)
