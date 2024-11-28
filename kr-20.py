@@ -3,6 +3,7 @@
 #Las puntuaciones para KR-20 van de 0 a 1, donde 0 no es confiable y 1 es perfecta. constituye un "aceptable" KR-20 puntuación depende del tipo de prueba. En general, una puntuación superior a 0,5 se considera generalmente razonable.
 #Si es mayor a 0.70 es mas que aceptable
 #Sirve para sacar la confiabilidad de un proyecto utilizando las preguntas que previamente elegiste para la población
+#Solo evalua 10 preguntas
 def kr20(respuestas):
     """Calcula el coeficiente KR-20."""
     num_personas = len(respuestas)
