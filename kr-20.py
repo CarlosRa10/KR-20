@@ -4,6 +4,7 @@
 #Si es mayor a 0.70 es mas que aceptable
 #Sirve para sacar la confiabilidad de un proyecto utilizando las preguntas que previamente elegiste para la población
 #Solo evalua 10 preguntas
+#Preguntas con respuestas cerradas(si o no)
 def kr20(respuestas):
     """Calcula el coeficiente KR-20."""
     num_personas = len(respuestas)
